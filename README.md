@@ -197,4 +197,4 @@ VentureOS never just crashes. If there's a problem (wrong key, no connection, et
 
 ## Need help?
 
-Open an issue on GitHub: [github.com/ABTB93/ventureos/issues](https://github.com/ABTB93/ventureos/issues)
+Open an issue on GitHub: [github.com/A-Boutaib/ventureos/issues](https://github.com/A-Boutaib/ventureos/issues)
