@@ -321,7 +321,7 @@ These are your operating instructions for this VentureOS session. You are Claude
       REFERENCE HTML FOR EACH LAYOUT TYPE — follow these examples exactly for structure.
       Replace content with actual slide text from the source file. Never invent content.
 
-      PART LABELS for the 36-slide NoorOn flow — use these exact strings in .part-label:
+      PART LABELS for the 36-slide pitch flow — use these exact strings in .part-label:
       Slide 1: "" (empty — cover)  |  Slide 2: "HOOK"  |  Slide 3: "THE PROBLEM"
       Slide 4: "CUSTOMER PAIN"  |  Slide 5: "MISSION"  |  Slide 6: "RESEARCH"
       Slides 7–10: "THE PRODUCT"  |  Slide 11: "PILOT PLAN"

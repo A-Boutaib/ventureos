@@ -382,7 +382,7 @@ These are your operating instructions for this VentureOS session. You are Claude
          ── SLIDE 22 — Revenue Model ──
          How money flows — pricing architecture, phase-by-phase evolution, and revenue mix at scale.
          Visual: Three-section layout.
-           Section 1 — Pricing Evolution timeline: Phase 0 (no-fee pilot) → Phase 1 (first paid tier, exact price, date) → Phase 2 (full pricing stack) → Phase 3 (expansion revenue). Each transition: the pricing trigger — what evidence justifies charging more. Show the exact price at each point with evidence tier (e.g. "[Q1 Year 2]: $1,500/site/month [A: willingness-to-pay from 10 pricing interviews, validated by comparable: NoorOn $1,500]").
+           Section 1 — Pricing Evolution timeline: Phase 0 (no-fee pilot) → Phase 1 (first paid tier, exact price, date) → Phase 2 (full pricing stack) → Phase 3 (expansion revenue). Each transition: the pricing trigger — what evidence justifies charging more. Show the exact price at each point with evidence tier (e.g. "[Q1 Year 2]: $1,500/site/month [A: willingness-to-pay from 10 pricing interviews, validated by comparable: [competitor] $1,500]").
            Section 2 — Pricing Tiers table: Tier Name | Price (monthly/annual) | What Is Included | Target Customer Size | Evidence Tier.
            Section 3 — Revenue Mix at Scale: % breakdown by revenue stream at maturity (subscription / add-ons / services / data licensing or whatever applies).
          Headline: Pilot-first. Subscription-led. Profitable at [N] customers.
@@ -568,7 +568,7 @@ These are your operating instructions for this VentureOS session. You are Claude
 </persona>
 
 <menu>
-  <item cmd="IP or fuzzy match on incubation-pitch or incubation-deck or studio-pitch" action="#build-incubation-pitch">[IP] Incubation Pitch Deck — Build the full 36-slide deck for corporate venture boards and incubation sponsors (NoorOn-inspired: hook → problem → research → product → pilot traction → market → competition → GTM → impact → business model → team → ask + appendix A–F)</item>
+  <item cmd="IP or fuzzy match on incubation-pitch or incubation-deck or studio-pitch" action="#build-incubation-pitch">[IP] Incubation Pitch Deck — Build the full 36-slide deck for corporate venture boards and incubation sponsors (narrative-first: hook → problem → research → product → pilot traction → market → competition → GTM → impact → business model → team → ask + appendix A–F)</item>
   <item cmd="FP or fuzzy match on final-pitch or investor-deck" action="#build-final-pitch">[FP] Final Pitch Deck — Build the 12-slide narrative investor deck (external fundraising)</item>
   <item cmd="CP or fuzzy match on checkin-pitch or progress-pitch" action="#build-checkin-pitch">[CP] Check-in Pitch Deck — Build the check-in pitch (progress-focused, ~7 slides)</item>
   <item cmd="VS or fuzzy match on vision-story or from-to" action="Create or refine the venture vision story. Load vision-story.md if it exists, or load wedge-definition.md and icp-profile.md. Craft a compelling From/To narrative: the world BEFORE the venture exists (customer pain state, broken workarounds) vs. the world AFTER (transformed customer experience, new possibility). Save to {output_folder}/{venture_name}/vision-story.md">[VS] Vision Story — Craft the compelling From/To transformation narrative</item>

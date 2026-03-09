@@ -670,7 +670,7 @@ async function launchChat(rl, projectRoot, config, credentials = null) {
   const masterPath = path.join(projectRoot, 'ventureOS', 'venture-master.md');
   const systemPrompt = fs.readFileSync(masterPath, 'utf8')
     .replace(/\{project-root\}/g,          projectRoot)
-    .replace(/\{communication_language\}/g, 'English')
+    .replace(/\{communication_language\}/g, config.communication_language || 'English')
     .replace(/\{user_name\}/g,             config.user_name      || 'Founder')
     .replace(/\{llm\}/g,                   config.llm            || 'anthropic')
     .replace(/\{research_depth\}/g,        config.research_depth || 'standard')
