@@ -110,7 +110,7 @@ Using the `pain-atomization.md` template, fill in the full matrix:
 - FIP ranking summary
 - Prioritized pain to solve with rationale
 
-Save: `{output_folder}/{venture_name}/pain-atomization.md`
+Save: `{output_folder}/{venture_name}/find-pain/pain-atomization.md`
 Update `pain-hypothesis.md` with refined primary pain.
 Update `venture-state.yaml`: hypotheses.problem, completed_artifacts.
 

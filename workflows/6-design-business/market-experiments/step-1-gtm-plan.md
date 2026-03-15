@@ -28,7 +28,7 @@ Using the `messaging-infrastructure.md` template, build the full messaging stack
 5. **Objection-handling map** (5 key objections + responses)
 6. **Channel-specific messaging:** LinkedIn outreach, cold email, landing page, paid ads
 
-Save: `{output_folder}/{venture_name}/messaging-infrastructure.md`
+Save: `{output_folder}/{venture_name}/design-business/messaging-infrastructure.md`
 
 ---
 
@@ -42,7 +42,7 @@ Using the `market-experiment.md` template (GTM section):
 4. **CAC hypothesis by channel** (what do we expect to pay per acquired customer?)
 5. **90-day GTM playbook** (weeks 10-12: what happens in each week?)
 
-Save GTM plan to: `{output_folder}/{venture_name}/market-experiment.md` (GTM section)
+Save GTM plan to: `{output_folder}/{venture_name}/design-business/market-experiment.md` (GTM section)
 
 ---
 
@@ -55,7 +55,7 @@ Using the `sales-process-map.md` template:
 4. Identify typical objections and responses
 5. Set sales KPI targets for Weeks 10-12
 
-Save: `{output_folder}/{venture_name}/sales-process-map.md`
+Save: `{output_folder}/{venture_name}/design-business/sales-process-map.md`
 
 ---
 

@@ -67,11 +67,26 @@ What is the customer seeing / doing?
 
 ## Concept Card Testing Results
 
-| Participant | Role | Reaction | Resonance (1-5) | Would Use? | Key Feedback |
-|-------------|------|---------|----------------|-----------|-------------|
-| | | Positive/Neutral/Negative | | Yes/No/Maybe | |
-| | | | | | |
-| | | | | | |
+**Participant 1:**
+- Role:
+- Reaction: Positive / Neutral / Negative
+- Resonance (1-5):
+- Would use: Yes / No / Maybe
+- Key feedback:
+
+**Participant 2:**
+- Role:
+- Reaction: Positive / Neutral / Negative
+- Resonance (1-5):
+- Would use: Yes / No / Maybe
+- Key feedback:
+
+**Participant 3:**
+- Role:
+- Reaction: Positive / Neutral / Negative
+- Resonance (1-5):
+- Would use: Yes / No / Maybe
+- Key feedback:
 
 **Average Resonance Score:** ___/5
 

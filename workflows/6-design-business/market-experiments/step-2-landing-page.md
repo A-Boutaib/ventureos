@@ -48,7 +48,7 @@ Generate prompting guidance for building the landing page with Claude Code / Cur
 **Prompt 4 (Analytics):**
 > "Add Google Analytics / Plausible / simple event tracking to track: page views, time on page, CTA clicks, form submissions."
 
-Save: `{output_folder}/{venture_name}/landing-page-spec.md`
+Save: `{output_folder}/{venture_name}/design-business/landing-page-spec.md`
 
 ---
 
@@ -73,7 +73,7 @@ For **Retargeting / Remarketing:**
 
 Include: targeting parameters for each ad variant (LinkedIn job titles, company sizes, industries).
 
-Save: `{output_folder}/{venture_name}/ad-variants.md`
+Save: `{output_folder}/{venture_name}/design-business/ad-variants.md`
 
 ---
 

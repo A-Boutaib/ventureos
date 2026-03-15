@@ -12,13 +12,35 @@
 
 ## Team Composition
 
-| Role | Name | Background | Allocation (%) | Primary Responsibility |
-|------|------|------------|----------------|------------------------|
-| Venture Lead | | | | |
-| Customer Discovery Lead | | | | |
-| Business/Commercial Lead | | | | |
-| Technology Lead | | | | |
-| Sponsor (Mothership) | | | | |
+**Venture Lead**
+- Name:
+- Background:
+- Allocation (%):
+- Primary responsibility:
+
+**Customer Discovery Lead**
+- Name:
+- Background:
+- Allocation (%):
+- Primary responsibility:
+
+**Business/Commercial Lead**
+- Name:
+- Background:
+- Allocation (%):
+- Primary responsibility:
+
+**Technology Lead**
+- Name:
+- Background:
+- Allocation (%):
+- Primary responsibility:
+
+**Sponsor (Mothership)**
+- Name:
+- Background:
+- Allocation (%):
+- Primary responsibility:
 
 ## Roles & Responsibilities
 - **Venture Lead:** Overall direction, NVB relationship, team cohesion

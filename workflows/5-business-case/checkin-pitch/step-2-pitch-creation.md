@@ -80,7 +80,7 @@ Present draft to user slide by slide. Ask:
 
 ## 2.4 Save Deck
 
-Save: `{output_folder}/{venture_name}/pitch/checkin-pitch.md`
+Save: `{output_folder}/{venture_name}/business-case/pitch/checkin-pitch.md`
 
 ---
 

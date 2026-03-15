@@ -30,17 +30,45 @@ GROWTH (expansion / renewal)
 
 ## Funnel Metrics by Channel
 
-| Stage | Metric | LinkedIn | Google | Email | Outbound | Total |
-|-------|--------|---------|--------|-------|---------|-------|
-| Awareness | Impressions | | | | | |
-| Interest | Clicks / Opens | | | | | |
-| Interest | CTR | | | | | |
-| Signup | Form fills | | | | | |
-| Signup | Conversion rate | | | | | |
-| Evaluation | Demo requests | | | | | |
-| Evaluation | Demos completed | | | | | |
-| Activation | Pilots started | | | | | |
-| Revenue | Paying customers | | | | | |
+**LinkedIn**
+- Awareness — Impressions:
+- Interest — Clicks / CTR:
+- Signup — Form fills / Conversion rate:
+- Evaluation — Demos requested / completed:
+- Activation — Pilots started:
+- Revenue — Paying customers:
+
+**Google**
+- Awareness — Impressions:
+- Interest — Clicks / CTR:
+- Signup — Form fills / Conversion rate:
+- Evaluation — Demos requested / completed:
+- Activation — Pilots started:
+- Revenue — Paying customers:
+
+**Email**
+- Awareness — Opens:
+- Interest — Clicks / CTR:
+- Signup — Form fills / Conversion rate:
+- Evaluation — Demos requested / completed:
+- Activation — Pilots started:
+- Revenue — Paying customers:
+
+**Outbound**
+- Awareness — Contacts reached:
+- Interest — Responses / CTR:
+- Signup — Form fills / Conversion rate:
+- Evaluation — Demos requested / completed:
+- Activation — Pilots started:
+- Revenue — Paying customers:
+
+**Totals (all channels)**
+- Awareness impressions:
+- Interest clicks:
+- Signups:
+- Demos:
+- Pilots:
+- Paying customers:
 
 ---
 
@@ -84,11 +112,26 @@ GROWTH (expansion / renewal)
 
 ## Desirability Scores
 
-| Test Wave | # Participants | Would Use (%) | Would Pay (%) | Enthusiasm (1-5) | Method |
-|-----------|-------------|--------------|--------------|-------------------|--------|
-| Concept card interviews | | | | | Real / Synthetic |
-| Landing page signups | | | | | Real |
-| Prototype testing | | | | | Real |
+**Concept card interviews**
+- Participants:
+- Would use (%):
+- Would pay (%):
+- Enthusiasm (1-5):
+- Method: Real / Synthetic
+
+**Landing page signups**
+- Participants:
+- Would use (%):
+- Would pay (%):
+- Enthusiasm (1-5):
+- Method: Real
+
+**Prototype testing**
+- Participants:
+- Would use (%):
+- Would pay (%):
+- Enthusiasm (1-5):
+- Method: Real
 
 **Overall desirability score:** ___/5
 

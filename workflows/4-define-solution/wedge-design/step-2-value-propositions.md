@@ -32,7 +32,7 @@ For each concept card:
 - Unlike alternatives section
 - Visual description for interview use
 
-Save cards to `{output_folder}/{venture_name}/concept-cards/card-{N}.md`
+Save cards to `{output_folder}/{venture_name}/define-solution/concept-cards/card-{N}.md`
 
 ---
 

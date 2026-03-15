@@ -60,7 +60,7 @@ Using the `product-roadmap.md` template, create the wedge-to-vision roadmap:
 
 Note what we explicitly are NOT building in Phase 1.
 
-Save: `{output_folder}/{venture_name}/product-roadmap.md`
+Save: `{output_folder}/{venture_name}/define-solution/product-roadmap.md`
 
 ---
 
@@ -71,7 +71,7 @@ Using the `vision-story.md` template, write the From/To narrative:
 - ACT 2: The shift — the enabling insight / technology
 - ACT 3: The world after — the transformed customer experience
 
-Save: `{output_folder}/{venture_name}/vision-story.md`
+Save: `{output_folder}/{venture_name}/define-solution/vision-story.md`
 
 ---
 

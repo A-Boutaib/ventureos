@@ -79,13 +79,13 @@ Using the investor-qa.md (from pitch-master.md [QA] menu item), generate the 15 
 
 For each question: provide a confident, evidence-backed suggested answer.
 
-Save: `{output_folder}/{venture_name}/pitch/investor-qa.md`
+Save: `{output_folder}/{venture_name}/design-business/pitch/investor-qa.md`
 
 ---
 
 ## 3.5 Save All Pitch Assets
 
-Save Excalidraw frames: `{output_folder}/{venture_name}/pitch/excalidraw-frames.md`
+Save Excalidraw frames: `{output_folder}/{venture_name}/design-business/pitch/excalidraw-frames.md`
 
 **Checkpoint:**
 **GUIDED MODE:** Review visual frame descriptions with user. Ask: "Are these the right visuals? Any slide you want to visualize differently?"

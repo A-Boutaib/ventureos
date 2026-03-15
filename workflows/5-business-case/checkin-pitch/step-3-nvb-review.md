@@ -102,7 +102,7 @@ Produce the NVB check-in decision record:
 
 ## 3.5 Update Venture State
 
-Save: `{output_folder}/{venture_name}/pitch/checkin-nvb-decision.md`
+Save: `{output_folder}/{venture_name}/business-case/pitch/checkin-nvb-decision.md`
 
 Update `venture-state.yaml`:
 - `gate_history[0].date` and `gate_history[0].decision`

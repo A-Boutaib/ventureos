@@ -9,13 +9,35 @@
 
 ## 1. Intellectual Property & Technology
 
-| Asset | Description | Relevance to Venture | Access Level | Owner/Contact |
-|-------|-------------|---------------------|--------------|---------------|
-| Patents | | | | |
-| Proprietary data sets | | | | |
-| Proprietary software / algorithms | | | | |
-| Research & development outputs | | | | |
-| Trademarks / brand assets | | | | |
+**Patents**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
+
+**Proprietary data sets**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
+
+**Proprietary software / algorithms**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
+
+**Research & development outputs**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
+
+**Trademarks / brand assets**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
 
 **Key IP assets identified:**
 
@@ -23,13 +45,35 @@
 
 ## 2. Customer & Market Access
 
-| Asset | Description | Relevance to Venture | Access Level | Owner/Contact |
-|-------|-------------|---------------------|--------------|---------------|
-| Existing customer base | | | | |
-| Customer relationships | | | | |
-| Distribution channels | | | | |
-| Sales team access | | | | |
-| Partner ecosystem | | | | |
+**Existing customer base**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
+
+**Customer relationships**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
+
+**Distribution channels**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
+
+**Sales team access**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
+
+**Partner ecosystem**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
 
 **Key customer access opportunities:**
 
@@ -37,12 +81,29 @@
 
 ## 3. Data & Analytics
 
-| Asset | Description | Relevance to Venture | Access Level | Owner/Contact |
-|-------|-------------|---------------------|--------------|---------------|
-| Customer usage data | | | | |
-| Transaction data | | | | |
-| Market intelligence | | | | |
-| Operational data | | | | |
+**Customer usage data**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
+
+**Transaction data**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
+
+**Market intelligence**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
+
+**Operational data**
+- Description:
+- Relevance to venture:
+- Access level:
+- Owner/Contact:
 
 **Key data assets available:**
 
@@ -59,21 +120,47 @@
 
 ## 5. Human Capital
 
-| Asset | Description | Relevance to Venture | Access Level |
-|-------|-------------|---------------------|--------------|
-| Domain experts | | | |
-| Technical talent | | | |
-| Customer-facing talent | | | |
-| Executive relationships | | | |
+**Domain experts**
+- Description:
+- Relevance to venture:
+- Access level:
+
+**Technical talent**
+- Description:
+- Relevance to venture:
+- Access level:
+
+**Customer-facing talent**
+- Description:
+- Relevance to venture:
+- Access level:
+
+**Executive relationships**
+- Description:
+- Relevance to venture:
+- Access level:
 
 ## 6. Infrastructure & Operations
 
-| Asset | Description | Relevance to Venture | Access Level |
-|-------|-------------|---------------------|--------------|
-| Technology infrastructure | | | |
-| Legal & compliance support | | | |
-| Finance & accounting | | | |
-| Procurement | | | |
+**Technology infrastructure**
+- Description:
+- Relevance to venture:
+- Access level:
+
+**Legal & compliance support**
+- Description:
+- Relevance to venture:
+- Access level:
+
+**Finance & accounting**
+- Description:
+- Relevance to venture:
+- Access level:
+
+**Procurement**
+- Description:
+- Relevance to venture:
+- Access level:
 
 ## 7. Financial Resources
 

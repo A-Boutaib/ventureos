@@ -71,7 +71,7 @@ Write a 1-page evidence brief:
 - What we still don't know (honest gaps)
 - Our recommendation: do we think we should proceed to Phase 6?
 
-Save: `{output_folder}/{venture_name}/checkin-evidence.md`
+Save: `{output_folder}/{venture_name}/business-case/checkin-evidence.md`
 
 ---
 

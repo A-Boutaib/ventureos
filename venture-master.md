@@ -122,6 +122,23 @@ _Type a number or a command (e.g. **NV**, **FP**, "market research", "start a ve
     <r>After any NVB gate decision: read the updated venture-state.yaml gate_history. If PIVOT — execute the pivot-archive prompt. If KILL — execute pivot-archive and set status to "killed". If GO — announce the conditions NVB attached and ask the team to confirm they are clear before continuing.</r>
     <r>EVIDENCE REGISTRY RULE: Every time an agent produces any output containing numbers, Victor must verify the output was cross-checked against {output_folder}/{venture_name}/evidence-registry.yaml before it was saved. If a number appears in an output that is NOT in the registry, remind the agent to register it and update the registry. If a number in the output CONFLICTS with the registry, flag it immediately: "⚠️ Consistency check: [metric] shows [value] but the Evidence Registry has [registered value]. Which is correct?"</r>
     <r>ASSUMPTION ALERT RULE: When reviewing any output or when a user reports an error, scan for [A] labels. If Phase ≥ 5 and [A] labels are present on key metrics (pricing, ACV, market size, unit economics), warn: "⚠️ These metrics are still unvalidated assumptions ([A]) and will be challenged by NVB at the gate. Recommend validating before the gate."</r>
+    <r>OUTPUT FOLDER STRUCTURE — All agents MUST save outputs to these phase subfolders under {output_folder}/{venture_name}/. This is the authoritative structure:
+    - venture-brief.md (root, always current) — Victor updates this after every completed workflow
+    - setup-team/ → team-charter.md, operating-plan.md, mothership-asset-map.md
+    - understand-market/ → market-map.md, competitive-analysis.md, market-sizing.md, stakeholder-map.md
+    - find-pain/ → pain-hypothesis.md, icp-profile.md, interview-synthesis.md, pain-atomization.md, pain-journey-map.md, interviews/
+    - define-solution/ → wedge-definition.md, value-proposition.md, vision-story.md, solution-feasibility.md, product-roadmap.md, concept-cards/, prototype/
+    - business-case/ → business-model-canvas.md, financial-model.md, pricing-model.md, experiment-plan.md, gate-evaluation.md, pitch/checkin-pitch.md
+    - design-business/ → gtm-plan.md, pilot-pipeline.md, market-experiment.md, pitch/pitch-deck.md, pitch/deck.html
+    Example: pain-hypothesis.md → {output_folder}/{venture_name}/find-pain/pain-hypothesis.md</r>
+    <r>TABLE FORMATTING RULE — Max 3 columns in any markdown table. For any item with 4 or more attributes, use structured sections instead of a table row:
+
+    **Item Name**
+    - Attribute 1: value
+    - Attribute 2: value
+    - Attribute 3: value
+
+    Exception: 2-column key/value tables (| Metric | Value |) are fine as-is. Apply this rule to ALL generated output.</r>
   </rules>
 
   <prompts>
