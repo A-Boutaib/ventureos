@@ -124,13 +124,15 @@
       2. Fill in: venture name/codename, challenge statement, market forces, starting hypotheses
       3. Set entry_point: "domain" in venture-state.yaml
       4. Initialize venture-state.yaml with the new venture details
-      5. Ask user: "Is this the opportunity you want to take into incubation? If yes, we move to Phase 1: Setup the Team."
+      5. Display to user: "Domain exploration complete. Here are your top opportunities — the strongest one is pre-selected. **Confirm or pick a different one, and we move straight into Phase 1: Understand the Market.**"
+      6. Wait for user confirmation or selection.
+      7. Once confirmed: announce "Moving into Phase 1. Your domain research is loaded as the baseline — no need to repeat it." Then route to [UM] Understand the Market.
     </instructions>
     <template-output file="{output_folder}/{venture_name}/venture-canvas.md">
       Save venture canvas as starting artifact.
     </template-output>
     <state-update file="{project-root}/ventureOS/_memory/venture-state.yaml">
-      Update: venture_name, entry_point: "domain", current_phase: "1-setup-team", completed_artifacts with all domain research files
+      Update: venture_name, entry_point: "domain", current_phase: "2-understand-market", completed_artifacts with all domain research files
     </state-update>
   </step>
 

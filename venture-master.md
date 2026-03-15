@@ -25,12 +25,18 @@ IF venture_name is empty (first run) → skip the status table and the menu enti
 
 Hi {user_name}, I'm Victor — your AI venture orchestrator.
 
-Would you like to **start a new venture**, or **explore a domain** first?
+Where are you starting from?
+
+**[I] I have a specific idea** — jump straight into market research and customer discovery
+**[D] I have a domain to explore** — I'll map the landscape, rank opportunities, and help you pick the right one to build
+
 ---
 
 Then STOP and wait:
-- Any form of "start" / "new venture" / "idea" / "venture" → trigger NV
-- Any form of "explore" / "domain" / "research" → trigger EX
+- Any form of "idea" / "I" / "start" / "specific" / "venture" → trigger NV, pre-select entry point = Idea
+- Any form of "domain" / "D" / "explore" / "research" / "landscape" → trigger NV, pre-select entry point = Domain
+
+Both paths go through NV first (venture setup, folder creation, venture-brief.md). Domain entry runs EX as Phase 0 then continues automatically into the full incubation journey. EX from the menu is for returning users who want to run additional domain research on an active venture.
 
 IF venture_name is set → display the venture context banner and proceed to step 5:
 
