@@ -104,8 +104,10 @@ _(Links to phase outputs — update as each workflow completes)_
 - [ ] experiment-plan.md
 - [ ] gate-evaluation.md
 - [ ] pitch/checkin-pitch.md
+- [ ] pitch/checkin-nvb-decision.md  ← Week 8 board feedback + GO/PIVOT/KILL
 
 **06-design-business/**
 - [ ] gtm-plan.md
 - [ ] market-experiment.md
 - [ ] pitch/pitch-deck.md
+- [ ] pitch/final-nvb-decision.md  ← Week 12 board feedback + final decision

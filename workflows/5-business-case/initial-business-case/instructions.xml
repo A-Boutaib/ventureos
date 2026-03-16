@@ -80,4 +80,13 @@
     </state-update>
   </step>
 
+  <completion>
+    ⚠️ MANDATORY NEXT STEP — Do not stop here. Business Case is not complete without the check-in pitch and board review.
+    Immediately run the Check-in Pitch workflow: load all three steps in sequence:
+    1. {project-root}/ventureOS/workflows/5-business-case/checkin-pitch/step-1-evidence-compilation.md
+    2. {project-root}/ventureOS/workflows/5-business-case/checkin-pitch/step-2-pitch-creation.md
+    3. {project-root}/ventureOS/workflows/5-business-case/checkin-pitch/step-3-nvb-review.md
+    The Week 8 gate decision (GO / PIVOT / KILL) lives in the NVB review step. The venture cannot advance to Phase 6 without this gate.
+  </completion>
+
 </workflow-instructions>

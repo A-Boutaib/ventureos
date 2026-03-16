@@ -136,3 +136,7 @@ Proceed to Step 5.
 | Pain atomization matrix | `pain-atomization.md` |
 | Updated pain hypothesis | `pain-hypothesis.md` |
 | Desk research notes | `interviews/desk-research-prevalence.md` |
+
+---
+
+⚠️ **MANDATORY NEXT STEP — Do not stop here.** Pain atomization is not the final step of Find Customer Pain. Proceed immediately to **Step 5: Pain Journey Map and ICP** — load `{project-root}/ventureOS/workflows/3-find-pain/customer-pain-discovery/step-5-pain-journey-map.md`. The phase is not complete without the pain journey map and ICP profile.
