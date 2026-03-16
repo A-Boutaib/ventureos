@@ -76,36 +76,36 @@ _(Key findings that support or challenge the venture. Label each: [V] = validate
 
 _(Links to phase outputs — update as each workflow completes)_
 
-**setup-team/**
+**01-setup-team/**
 - [ ] team-charter.md
 - [ ] mothership-asset-map.md
 
-**understand-market/**
+**02-understand-market/**
 - [ ] market-map.md
 - [ ] competitive-analysis.md
 - [ ] market-sizing.md
 - [ ] stakeholder-map.md
 
-**find-pain/**
+**03-find-pain/**
 - [ ] pain-hypothesis.md
 - [ ] interview-synthesis.md
 - [ ] pain-atomization.md
 - [ ] icp-profile.md
 - [ ] pain-journey-map.md
 
-**define-solution/**
+**04-define-solution/**
 - [ ] wedge-definition.md
 - [ ] value-proposition.md
 - [ ] vision-story.md
 - [ ] product-roadmap.md
 
-**business-case/**
+**05-business-case/**
 - [ ] financial-model.md
 - [ ] experiment-plan.md
 - [ ] gate-evaluation.md
 - [ ] pitch/checkin-pitch.md
 
-**design-business/**
+**06-design-business/**
 - [ ] gtm-plan.md
 - [ ] market-experiment.md
 - [ ] pitch/pitch-deck.md

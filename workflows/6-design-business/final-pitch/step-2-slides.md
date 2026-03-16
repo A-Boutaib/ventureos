@@ -118,4 +118,4 @@ Before declaring the deck complete:
 
 ---
 
-Save: `{output_folder}/{venture_name}/design-business/pitch/pitch-deck.md`
+Save: `{output_folder}/{venture_name}/06-design-business/pitch/pitch-deck.md`

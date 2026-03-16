@@ -60,7 +60,7 @@ Prompt 2 (Core feature):
 Prompt 3 (UI/UX):
 > "Style this for [ICP context — e.g., enterprise SaaS, clean and minimal]. Add [specific UI elements]."
 
-Produce a prompting guide with 5-8 prompts that will build the prototype when used in Claude Code / Cursor. Save to `{output_folder}/{venture_name}/define-solution/prototype/build-guide.md`.
+Produce a prompting guide with 5-8 prompts that will build the prototype when used in Claude Code / Cursor. Save to `{output_folder}/{venture_name}/04-define-solution/prototype/build-guide.md`.
 
 ---
 

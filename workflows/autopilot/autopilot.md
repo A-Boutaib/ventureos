@@ -83,7 +83,7 @@ Run autonomously in research mode. Do not pause for checkpoints.
 - Flag white spaces: problems that exist but have no strong solution yet
 - Assess why now: what has changed in the last 2–3 years that creates an opening
 
-**Output:** Save as `{output_folder}/{venture_name}/domain-research/domain-scan.md`
+**Output:** Save as `{output_folder}/{venture_name}/00-domain-research/domain-scan.md`
 
 Header format:
 ```
@@ -109,7 +109,7 @@ Continue as Diana or reload if needed.
 - Key barriers to entry and how to navigate them
 - Identify the most underserved customer segment
 
-**Output:** Save as `{output_folder}/{venture_name}/understand-market/market-map.md`
+**Output:** Save as `{output_folder}/{venture_name}/02-understand-market/market-map.md`
 
 Header format:
 ```
@@ -155,7 +155,7 @@ Focus: pain prevalence across the market, why current solutions fail, what a bre
 ⚠️ SIMULATED INTERVIEW — AI-generated persona. Not real customer data.
 ```
 
-**Output:** Save as `{output_folder}/{venture_name}/find-pain/synthetic-interviews.md`
+**Output:** Save as `{output_folder}/{venture_name}/03-find-pain/synthetic-interviews.md`
 
 Update progress tracker: `[✓] Phase 2 — Customer Pain Discovery`
 
@@ -170,7 +170,7 @@ Update progress tracker: `[✓] Phase 2 — Customer Pain Discovery`
 - Select primary pain: highest FIP AND most aligned with domain opportunity
 - Define initial ICP: the persona profile that showed strongest, most consistent pain
 
-**Output:** Save as `{output_folder}/{venture_name}/find-pain/pain-atomization.md`
+**Output:** Save as `{output_folder}/{venture_name}/03-find-pain/pain-atomization.md`
 
 ---
 
@@ -192,7 +192,7 @@ Apply thresholds from `{project-root}/ventureOS/scoring/pain-scoring.yaml`:
 
 **If WEAK:** Revise the ICP hypothesis (try adjacent segment or reframe pain), re-run Steps 5–6 once. If still < 2.5 after second run → KILL.
 
-**If KILL:** Generate `{output_folder}/{venture_name}/find-pain/kill-decision.md` with:
+**If KILL:** Generate `{output_folder}/{venture_name}/03-find-pain/kill-decision.md` with:
 - Pain scores across all tested segments
 - Reason for kill: pain insufficient
 - What was learned
@@ -220,7 +220,7 @@ Run autonomously. Do not pause for checkpoints.
 - Outline prototype concept (what the earliest testable version looks like)
 - Map wedge → big vision scaling path
 
-**Output:** Save as `{output_folder}/{venture_name}/define-solution/solution-design.md`
+**Output:** Save as `{output_folder}/{venture_name}/04-define-solution/solution-design.md`
 
 Header:
 ```
@@ -253,7 +253,7 @@ Run autonomously.
 - Calculate unit economics: estimated CAC, LTV, LTV:CAC ratio
 - Identify key financial assumptions that need validation
 
-**Output:** Save as `{output_folder}/{venture_name}/business-case/business-case.md`
+**Output:** Save as `{output_folder}/{venture_name}/05-business-case/business-case.md`
 
 Header:
 ```
@@ -295,7 +295,7 @@ Each board member scores independently, then Eva calculates weighted average.
 | 2.5–3.49 | **PIVOT** — identify pivot type, revise |
 | < 2.5 | **KILL** — insufficient evidence |
 
-**Output:** Save as `{output_folder}/{venture_name}/business-case/gate-evaluation.md`
+**Output:** Save as `{output_folder}/{venture_name}/05-business-case/gate-evaluation.md`
 
 All output labeled:
 ```
@@ -319,7 +319,7 @@ All output labeled:
 - If second gate also results in PIVOT → downgrade to KILL and document
 
 **If KILL:**
-Generate `{output_folder}/{venture_name}/business-case/kill-decision.md` with full rationale.
+Generate `{output_folder}/{venture_name}/05-business-case/kill-decision.md` with full rationale.
 Display summary and return to main menu.
 
 Update progress tracker: `[✓] Gate 2 — Check-in`
@@ -340,7 +340,7 @@ Run autonomously.
 - Define success metrics for each experiment (what GO looks like)
 - Draft pilot customer outreach strategy: who to target, what to say
 
-**Output:** Save as `{output_folder}/{venture_name}/design-business/gtm-plan.md`
+**Output:** Save as `{output_folder}/{venture_name}/06-design-business/gtm-plan.md`
 
 Header:
 ```
@@ -392,7 +392,7 @@ Build a complete investor pitch deck. Use the narrative-first format for every s
 
 **Narrative arc rule:** Slides 1–3 build the villain (the problem). Slides 4–5 introduce the hero (the solution and timing). Slides 6–8 prove the business. Slides 9–10 close the deal.
 
-**Output:** Save as `{output_folder}/{venture_name}/design-business/pitch/pitch-deck.md`
+**Output:** Save as `{output_folder}/{venture_name}/06-design-business/pitch/pitch-deck.md`
 
 Header:
 ```
@@ -431,15 +431,15 @@ Display this summary to the user:
 >
 > | Output | File |
 > |---|---|
-> | Domain scan | `domain-research/domain-scan.md` |
-> | Market mapping | `understand-market/market-map.md` |
-> | Synthetic interviews | `find-pain/synthetic-interviews.md` |
-> | Pain atomization | `find-pain/pain-atomization.md` |
-> | Solution design | `define-solution/solution-design.md` |
-> | Business case | `business-case/business-case.md` |
-> | Check-in evaluation | `business-case/gate-evaluation.md` |
-> | GTM plan | `design-business/gtm-plan.md` |
-> | Pitch deck | `design-business/pitch/pitch-deck.md` |
+> | Domain scan | `00-domain-research/domain-scan.md` |
+> | Market mapping | `02-understand-market/market-map.md` |
+> | Synthetic interviews | `03-find-pain/synthetic-interviews.md` |
+> | Pain atomization | `03-find-pain/pain-atomization.md` |
+> | Solution design | `04-define-solution/solution-design.md` |
+> | Business case | `05-business-case/business-case.md` |
+> | Check-in evaluation | `05-business-case/gate-evaluation.md` |
+> | GTM plan | `06-design-business/gtm-plan.md` |
+> | Pitch deck | `06-design-business/pitch/pitch-deck.md` |
 > | **Venture Scan Report** | **`venture-scan-report.md`** ← start here |
 >
 > **Gate results:**

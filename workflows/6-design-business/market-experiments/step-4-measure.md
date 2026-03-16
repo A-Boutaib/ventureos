@@ -106,8 +106,8 @@ Compile all experiment data into the `market-experiment.md` template (Results se
 Also complete `conversion-analysis.md` template with all funnel data.
 
 Save:
-- `{output_folder}/{venture_name}/design-business/market-experiment.md`
-- `{output_folder}/{venture_name}/design-business/conversion-analysis.md`
+- `{output_folder}/{venture_name}/06-design-business/market-experiment.md`
+- `{output_folder}/{venture_name}/06-design-business/conversion-analysis.md`
 
 Update `venture-state.yaml`:
 - `completed_artifacts` — market-experiment, conversion-analysis

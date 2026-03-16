@@ -82,7 +82,7 @@ Consolidate findings into `social-signal-scan.md`:
 - Do NOT use these as interview substitutes — use them to sharpen hypotheses
 ```
 
-Save to: `{output_folder}/{venture_name}/find-pain/social-signal-scan.md`
+Save to: `{output_folder}/{venture_name}/03-find-pain/social-signal-scan.md`
 
 Register the top 3–5 quantitative signals (e.g. "X% of G2 reviews mention Y") in the evidence registry as `[B]` entries.
 
@@ -124,7 +124,7 @@ Work with the user to sharpen the pain hypothesis:
 **Prioritization rationale:**
 - Why is the primary hypothesis the most promising to test first?
 
-Save updates to `{output_folder}/{venture_name}/find-pain/pain-hypothesis.md`.
+Save updates to `{output_folder}/{venture_name}/03-find-pain/pain-hypothesis.md`.
 
 ---
 
@@ -138,7 +138,7 @@ Define the interview target list:
 5. **Outreach message:** (brief, value-exchange framing — "I want to learn from your experience, not sell anything")
 6. **Timeline:** First batch of ___ interviews by Week ___
 
-Create `{output_folder}/{venture_name}/find-pain/interview-outreach-plan.md` with the target list and approach.
+Create `{output_folder}/{venture_name}/03-find-pain/interview-outreach-plan.md` with the target list and approach.
 
 ---
 
@@ -153,7 +153,7 @@ Based on the pain hypothesis and stakeholder map, generate interview scripts usi
 **Script 2: Expert Interview Script** (for domain experts who can validate prevalence)
 - Tailor to elicit: how common is this pain? What do most companies do about it?
 
-Save scripts to `{output_folder}/{venture_name}/find-pain/interview-scripts/`.
+Save scripts to `{output_folder}/{venture_name}/03-find-pain/interview-scripts/`.
 
 ---
 

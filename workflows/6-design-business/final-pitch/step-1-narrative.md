@@ -33,7 +33,7 @@ Load or create the vision story using `vision-story.md` template:
 - Is every claim backed by evidence from the venture's research?
 - Is the vision big enough but grounded in the wedge?
 
-Save: `{output_folder}/{venture_name}/define-solution/vision-story.md` (final version)
+Save: `{output_folder}/{venture_name}/04-define-solution/vision-story.md` (final version)
 
 ---
 
@@ -49,7 +49,7 @@ Using all available data:
 5. Cash flow: burn rate, break-even month, funding requirements
 6. Use of proceeds: how the raise will be allocated
 
-Save: `{output_folder}/{venture_name}/business-case/financial-model.md`
+Save: `{output_folder}/{venture_name}/05-business-case/financial-model.md`
 
 ---
 

@@ -115,14 +115,14 @@ _Type a number or a command (e.g. **NV**, **FP**, "market research", "start a ve
     <r>ASSUMPTION ALERT RULE: When reviewing any output or when a user reports an error, scan for [A] labels. If Phase ≥ 5 and [A] labels are present on key metrics (pricing, ACV, market size, unit economics), warn: "⚠️ These metrics are still unvalidated assumptions ([A]) and will be challenged by NVB at the gate. Recommend validating before the gate."</r>
     <r>OUTPUT FOLDER STRUCTURE — All agents MUST save outputs to these phase subfolders under {output_folder}/{venture_name}/. This is the authoritative structure:
     - venture-brief.md (root, always current) — Victor updates this after every completed workflow
-    - domain-research/ → market-landscape.md, competitive-analysis.md, market-sizing.md, domain-scan.md (Phase 0 / EX outputs)
-    - setup-team/ → team-charter.md, operating-plan.md, mothership-asset-map.md
-    - understand-market/ → market-map.md, competitive-analysis.md, market-sizing.md, stakeholder-map.md (Phase 2 / UM outputs)
-    - find-pain/ → pain-hypothesis.md, icp-profile.md, interview-synthesis.md, pain-atomization.md, pain-journey-map.md, interviews/
-    - define-solution/ → wedge-definition.md, value-proposition.md, vision-story.md, solution-feasibility.md, product-roadmap.md, concept-cards/, prototype/
-    - business-case/ → business-model-canvas.md, financial-model.md, pricing-model.md, experiment-plan.md, gate-evaluation.md, pitch/checkin-pitch.md
-    - design-business/ → gtm-plan.md, pilot-pipeline.md, market-experiment.md, pitch/pitch-deck.md, pitch/deck.html
-    Example: pain-hypothesis.md → {output_folder}/{venture_name}/find-pain/pain-hypothesis.md</r>
+    - 00-domain-research/ → market-landscape.md, competitive-analysis.md, market-sizing.md, domain-scan.md (Phase 0 / EX outputs)
+    - 01-setup-team/ → team-charter.md, operating-plan.md, mothership-asset-map.md
+    - 02-understand-market/ → market-map.md, competitive-analysis.md, market-sizing.md, stakeholder-map.md (Phase 2 / UM outputs)
+    - 03-find-pain/ → pain-hypothesis.md, icp-profile.md, interview-synthesis.md, pain-atomization.md, pain-journey-map.md, interviews/
+    - 04-define-solution/ → wedge-definition.md, value-proposition.md, vision-story.md, solution-feasibility.md, product-roadmap.md, concept-cards/, prototype/
+    - 05-business-case/ → business-model-canvas.md, financial-model.md, pricing-model.md, experiment-plan.md, gate-evaluation.md, pitch/checkin-pitch.md
+    - 06-design-business/ → gtm-plan.md, pilot-pipeline.md, market-experiment.md, pitch/pitch-deck.md, pitch/deck.html
+    Example: pain-hypothesis.md → {output_folder}/{venture_name}/03-find-pain/pain-hypothesis.md</r>
     <r>TABLE FORMATTING RULE — Two conditions must BOTH be met to use a markdown table:
     (1) Max 6 columns
     (2) Every cell contains 6 words or fewer — short labels, numbers, names, single phrases only

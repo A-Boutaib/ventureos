@@ -17,7 +17,7 @@ installed_path: "{project-root}/ventureOS/workflows/0-explore/domain-deep-dive"
 instructions: "{installed_path}/instructions.xml"
 
 # Output
-default_output_folder: "{output_folder}/{venture_name}/domain-research/"
+default_output_folder: "{output_folder}/{venture_name}/00-domain-research/"
 
 # Templates used
 templates:

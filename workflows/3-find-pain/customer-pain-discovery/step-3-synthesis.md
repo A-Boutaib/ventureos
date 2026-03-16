@@ -87,8 +87,8 @@ Using the `interview-synthesis.md` template, produce the batch synthesis report:
 - Quotes bank
 - Next steps
 
-Save: `{output_folder}/{venture_name}/find-pain/interview-synthesis-batch-{N}.md`
-Update cumulative synthesis: `{output_folder}/{venture_name}/find-pain/interview-synthesis.md`
+Save: `{output_folder}/{venture_name}/03-find-pain/interview-synthesis-batch-{N}.md`
+Update cumulative synthesis: `{output_folder}/{venture_name}/03-find-pain/interview-synthesis.md`
 
 ---
 

@@ -26,7 +26,7 @@
 
       Cite all sources. Label AI-synthesized estimates clearly.
     </instructions>
-    <template-output file="{output_folder}/{venture_name}/domain-research/market-landscape.md">
+    <template-output file="{output_folder}/{venture_name}/00-domain-research/market-landscape.md">
       Save a structured market landscape report.
     </template-output>
     <checkpoint>
@@ -47,7 +47,7 @@
       5. Note recent strategic moves: funding, acquisitions, product launches, partnerships
       6. Identify 2-3 areas where differentiation is possible
     </instructions>
-    <template-output file="{output_folder}/{venture_name}/domain-research/competitive-analysis.md">
+    <template-output file="{output_folder}/{venture_name}/00-domain-research/competitive-analysis.md">
       Save competitive analysis with differentiation map.
     </template-output>
     <checkpoint>
@@ -67,7 +67,7 @@
       4. Note market growth rate (CAGR) from credible sources
       5. Flag if market is too small (&lt;$100M TAM) — potential kill signal
     </instructions>
-    <template-output file="{output_folder}/{venture_name}/domain-research/market-sizing.md">
+    <template-output file="{output_folder}/{venture_name}/00-domain-research/market-sizing.md">
       Save market sizing with all sources cited.
     </template-output>
   </step>
@@ -83,7 +83,7 @@
       4. For each pain: who experiences it, rough FIP estimate, current workaround
       5. Rank pains by: FIP potential × market size × competitive white space
     </instructions>
-    <template-output file="{output_folder}/{venture_name}/domain-research/pain-signals.md">
+    <template-output file="{output_folder}/{venture_name}/00-domain-research/pain-signals.md">
       Save ranked pain signal scan.
     </template-output>
   </step>
@@ -106,7 +106,7 @@
 
       Rank by overall opportunity score: market × pain × timing × differentiation potential
     </instructions>
-    <template-output file="{output_folder}/{venture_name}/domain-research/opportunity-ranking.md">
+    <template-output file="{output_folder}/{venture_name}/00-domain-research/opportunity-ranking.md">
       Save ranked opportunity areas.
     </template-output>
     <checkpoint>

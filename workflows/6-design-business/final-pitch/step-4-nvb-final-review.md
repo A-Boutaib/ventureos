@@ -113,8 +113,8 @@ Save gate evaluation to `gate-evaluation.md` using the template.
 
 ## 4.6 Save Final Gate Record
 
-Save: `{output_folder}/{venture_name}/design-business/pitch/final-nvb-decision.md`
-Save: `{output_folder}/{venture_name}/business-case/gate-evaluation.md`
+Save: `{output_folder}/{venture_name}/06-design-business/pitch/final-nvb-decision.md`
+Save: `{output_folder}/{venture_name}/05-business-case/gate-evaluation.md`
 
 Update `venture-state.yaml`:
 - `gate_history[1].date`, `gate_history[1].score`, `gate_history[1].decision`

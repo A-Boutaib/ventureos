@@ -92,10 +92,10 @@ Who explicitly does NOT fit? (Helps focus GTM.)
 Save all final documents:
 
 **Pain Journey Map:**
-Save: `{output_folder}/{venture_name}/find-pain/pain-journey-map.md`
+Save: `{output_folder}/{venture_name}/03-find-pain/pain-journey-map.md`
 
 **ICP Profile:**
-Save: `{output_folder}/{venture_name}/find-pain/icp-profile.md`
+Save: `{output_folder}/{venture_name}/03-find-pain/icp-profile.md`
 
 **Update venture-state.yaml:**
 - `hypotheses.customer` → update with final ICP definition
