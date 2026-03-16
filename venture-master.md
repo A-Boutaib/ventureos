@@ -118,7 +118,7 @@ _Type a number or a command (e.g. **NV**, **FP**, "market research", "start a ve
     - 00-domain-research/ → market-landscape.md, competitive-analysis.md, market-sizing.md, domain-scan.md (Phase 0 / EX outputs)
     - 01-setup-team/ → team-charter.md, operating-plan.md, mothership-asset-map.md
     - 02-understand-market/ → market-map.md, competitive-analysis.md, market-sizing.md, stakeholder-map.md (Phase 2 / UM outputs)
-    - 03-find-pain/ → pain-hypothesis.md, icp-profile.md, interview-synthesis.md, pain-atomization.md, pain-journey-map.md, interviews/
+    - 03-find-pain/ → pain-hypothesis.md, social-signal-scan.md, interview-outreach-plan.md, icp-profile.md, interview-synthesis.md, pain-atomization.md, pain-journey-map.md, interview-scripts/ (scripts before interviews), interviews/ (notes + synthetic + imported)
     - 04-define-solution/ → wedge-definition.md, value-proposition.md, vision-story.md, solution-feasibility.md, product-roadmap.md, concept-cards/, prototype/
     - 05-business-case/ → business-model-canvas.md, financial-model.md, pricing-model.md, experiment-plan.md, gate-evaluation.md, pitch/checkin-pitch.md
     - 06-design-business/ → gtm-plan.md, pilot-pipeline.md, market-experiment.md, pitch/pitch-deck.md, pitch/deck.html
