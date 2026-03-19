@@ -165,28 +165,12 @@ async function runSetupWizard(rl, { forIDE = false } = {}) {
   const nameInput = await rl.question('  Your name (press Enter for "Founder"): ');
   const userName = nameInput.trim() || 'Founder';
 
-  console.log('\n  How thorough should VentureOS be with research?\n');
-  console.log('     1.  Standard  — structured analysis with sourced data  (recommended)');
-  console.log('     2.  Light     — quick overview, faster');
-  console.log('     3.  Deep      — exhaustive, multi-source\n');
-  const depthInput = await rl.question('     Select [1-3]: ');
-  const researchDepth = ({ '1': 'standard', '2': 'light', '3': 'deep' })[depthInput.trim()] ?? 'standard';
-
   console.log('\n  How should workflows run by default?\n');
   console.log('     1.  Guided    — pauses so you review each step  (recommended)');
   console.log('     2.  Yolo      — runs everything autonomously, shows outputs at the end');
   console.log('     3.  Autopilot — Victor runs the full 12-week journey in one go\n');
   const modeInput = await rl.question('     Select [1-3]: ');
   const defaultMode = modeInput.trim() === '2' ? 'yolo' : modeInput.trim() === '3' ? 'autopilot' : 'guided';
-
-  console.log('\n  What region is your primary market?\n');
-  console.log('     1.  Global          (recommended if multi-region)');
-  console.log('     2.  MENA            — Middle East & North Africa');
-  console.log('     3.  Europe');
-  console.log('     4.  North America');
-  console.log('     5.  Southeast Asia\n');
-  const regionInput = await rl.question('     Select [1-5]: ');
-  const region = ({ '1': 'global', '2': 'MENA', '3': 'Europe', '4': 'North America', '5': 'Southeast Asia' })[regionInput.trim()] ?? 'global';
 
   let llm = 'anthropic';
   if (!forIDE) {
@@ -198,7 +182,7 @@ async function runSetupWizard(rl, { forIDE = false } = {}) {
     llm = ({ '1': 'anthropic', '2': 'openai', '3': 'gemini' })[llmInput.trim()] ?? 'anthropic';
   }
 
-  return { userName, researchDepth, llm, defaultMode, region };
+  return { userName, researchDepth: 'deep', llm, defaultMode, region: 'global' };
 }
 
 // ─── API Key Recovery ──────────────────────────────────────────────────────────
@@ -450,10 +434,13 @@ async function reconfigure() {
       console.log('  This project is currently configured for an AI IDE.');
       console.log('  Reconfiguring without switching it into API-key mode.\n');
     }
-    const { userName, researchDepth, llm, defaultMode, region } = await runSetupWizard(rl, { forIDE: configuredForIDE });
+    const { userName, llm, defaultMode } = await runSetupWizard(rl, { forIDE: configuredForIDE });
     rl.close();
     const nextLlm = configuredForIDE ? current.llm : llm;
-    const newConfig = generateConfig({ userName, researchDepth, llm: nextLlm, defaultMode, region });
+    // Preserve region and research_depth — these are set by Victor during venture setup
+    const nextRegion = current.region || 'global';
+    const nextDepth  = current.research_depth || 'deep';
+    const newConfig = generateConfig({ userName, researchDepth: nextDepth, llm: nextLlm, defaultMode, region: nextRegion });
     fs.writeFileSync(configPath, newConfig, 'utf8');
     console.log('\n  ✓  Configuration updated  →  ventureOS/config.yaml\n');
   } catch (err) {
