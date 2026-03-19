@@ -169,21 +169,104 @@ _Type a number or a command (e.g. **NV**, **FP**, "market research", "start a ve
          - Idea entry → route to [UM] Understand the Market
     </prompt>
 
-    <prompt id="interview-mode-check">
-      Before launching the Find Customer Pain workflow, ask the user:
+    <prompt id="domain-expert-check">
+      Before launching the Understand Market workflow, display exactly this:
 
-      "Before we start — **do you have customers you can interview?**
+      ---
+      **Phase 2 — A quick check before we dive in**
+
+      The best market research starts with a conversation, not a search engine. Before we map the competitive landscape and size the market, have you spoken to anyone who knows this space?
+
+      **Who to find (5–8 people is enough):**
+      - 1–2 investors or analysts who cover this sector
+      - 2–3 operators or practitioners who live the problem daily
+      - 1–2 people who have tried to build something in this space before
+
+      **Where to find them:**
+      - LinkedIn: search [domain] + [role] in your 2nd-degree network, send a direct note — "I'm exploring [domain], would love 20 minutes of your perspective"
+      - Warm intros: ask your network "who knows [domain] well?"
+      - Communities: relevant Slack groups, Discord servers, LinkedIn groups for the industry
+      If {region} is MENA: add WhatsApp groups and local accelerator networks (Flat6Labs, Wamda, MITEF Arab) as recruit channels.
+
+      **These are not interviews — they are informal conversations.** No script needed. Just listen. Your desk research will be 10× sharper after even 2–3 of these calls.
+
+      ---
+
+      Ask the user:
+      - [Y] Yes, I've had some of these conversations — great, proceed and ask them to bring key insights into the workflow
+      - [S] I'll do it soon — proceed now but add a note: "Prioritise 2–3 expert conversations this week alongside Phase 2"
+      - [N] Not yet, let's proceed — proceed and remind them once during Phase 2 to reach out
+
+      Do not block. This is a nudge, not a gate. Proceed to the workflow regardless of their answer.
+    </prompt>
+
+    <prompt id="interview-mode-check">
+      Before launching the Find Customer Pain workflow, display exactly this:
+
+      ---
+      **Phase 3 — The most important thing you will do in this program**
+
+      Customer interviews are not optional. This is where every assumption you made in Phases 1 and 2 gets tested against reality. No amount of desk research, synthetic simulation, or market data replaces a real conversation with the person who lives the problem.
+
+      **Your goal: 15–20 interviews minimum before synthesis.**
+
+      **Who to interview:**
+      - The **user** — the person who feels the pain daily (e.g. the ops manager, the finance analyst, the field technician)
+      - The **buyer** — the person who controls the budget (often a different person — e.g. the Head of Ops, the CFO, the VP Engineering)
+      - Interview both. They have different pain levels, different motivators, and different objections.
+
+      **Where to find them:**
+      - LinkedIn: search [ICP job title] + [industry] — filter to 2nd-degree, send a direct message: "I'm researching [problem area] in [industry] — would you be open to a 30-min conversation? No pitch, just learning."
+      - Warm intros: ask advisors, investors, or domain experts from Phase 2 for introductions
+      - Communities: Slack groups, Reddit, Discord, and LinkedIn groups where your ICP is active
+      If {region} is MENA: WhatsApp groups, Facebook professional groups, and local accelerator alumni networks are high-density recruit channels.
+
+      **A good interview is not a pitch.** Never mention your solution. Ask about their past behaviour, their workarounds, and what it costs them. The moment you pitch, people stop telling you the truth.
+
+      ---
+
+      Then ask:
 
       | # | Option | What happens |
       |---|---|---|
-      | 1 | **Yes, I have people to talk to** | Discovery prepares your interview scripts and structures your notes as you go |
-      | 2 | **Not yet — simulate interviews first** | Discovery generates realistic customer personas and runs AI-simulated interviews right now, so you have a hypothesis to validate before recruiting real customers |
-      | 3 | **I have data from another tool** | Import from Listen Labs, Maze, UserTesting, or structured CSV/JSON |
+      | 1 | **I'm ready — I have people to interview** | Discovery prepares your scripts and structures your notes in real time |
+      | 2 | **I need to recruit first — let's prepare while I do** | Discovery generates your scripts and outreach templates now so you can start recruiting immediately |
+      | 3 | **I can't recruit right now — run synthetic interviews** | Discovery generates AI-simulated interviews as a starting hypothesis — clearly flagged, not real validation |
+      | 4 | **I have data from another tool** | Import from Listen Labs, Maze, UserTesting, or structured CSV/JSON |
 
-      > 💡 You can always combine modes — start with simulated interviews to sharpen your hypothesis, then follow up with real customers to validate."
+      If the user selects option 3 (synthetic), confirm with:
+      "Understood. I'll run synthetic interviews as a working hypothesis. **Important: synthetic interviews are not customer validation.** They produce plausible patterns based on AI reasoning — not real signal. You will need to validate the top pain themes with real customers before Phase 5. I will flag this in your Venture Brief."
 
-      Store their answer as {interview_mode}: real | simulated | import
+      Store their answer as {interview_mode}: real | preparing | simulated | import
       Pass {interview_mode} as context when loading the workflow so Discovery activates the right mode immediately.
+    </prompt>
+
+    <prompt id="solution-test-check">
+      This prompt fires when the user reaches Step 4 of the Define Solution workflow (solution-testing). Display exactly this:
+
+      ---
+      **Before we test the solution — go back to your Phase 3 contacts**
+
+      Solution testing is not a new recruit. You are going back to the people who told you about the problem and showing them what you are building. These are the only people whose opinion matters right now — they already validated the pain.
+
+      **What to do:**
+      - Pick the 5–8 people from Phase 3 who showed the strongest pain signal
+      - Book 30-minute concept test sessions — not a demo, a conversation
+      - Show them a mockup, a one-pager, or a simple prototype walkthrough
+      - Ask: "Does this solve the problem you described? What's missing? What would make this essential?"
+      - Do NOT pitch. Do NOT ask "would you buy this?" yet. Ask "does this solve it?"
+
+      **If you ran synthetic interviews in Phase 3:**
+      You have not spoken to any real customers yet. Before testing a solution concept, you need at least 5 real interviews to validate the pain first. Otherwise you are testing a solution to a problem you have not confirmed exists.
+
+      ---
+
+      Ask the user:
+      - [Y] Yes, I have Phase 3 contacts to test with — proceed to solution testing workflow
+      - [R] I need to recruit concept-test participants first — proceed and generate a concept-test outreach template
+      - [S] I'll proceed with synthetic concept testing — confirm: "Understood. I'll run synthetic concept tests and flag this in the Venture Brief. Validate with real users before committing to the build."
+
+      Do not block. Proceed to the workflow regardless of their answer, but record their choice.
     </prompt>
 
     <prompt id="pivot-archive">
@@ -217,9 +300,9 @@ _Type a number or a command (e.g. **NV**, **FP**, "market research", "start a ve
   <item cmd="NV or fuzzy match on new-venture or start" action="#new-venture">[NV] New Venture — Start a new venture (domain or idea entry point)</item>
   <item cmd="EX or fuzzy match on explore or domain" workflow="{project-root}/ventureOS/workflows/0-explore/domain-deep-dive/workflow.yaml">[EX] Explore Domain — Opportunity discovery for domain entry point (pre-incubation)</item>
   <item cmd="ST or fuzzy match on setup-team or team" workflow="{project-root}/ventureOS/workflows/1-setup-team/team-formation/workflow.yaml">[ST] Setup the Team — Team charter, mothership alignment, sponsor (Week 1) — for org context only</item>
-  <item cmd="UM or fuzzy match on understand-market or market" workflow="{project-root}/ventureOS/workflows/2-understand-market/market-mapping/workflow.yaml">[UM] Understand the Market — Competitive landscape, market sizing, stakeholders (Week 1)</item>
+  <item cmd="UM or fuzzy match on understand-market or market" workflow="{project-root}/ventureOS/workflows/2-understand-market/market-mapping/workflow.yaml" pre-action="domain-expert-check">[UM] Understand the Market — Competitive landscape, market sizing, stakeholders (Week 1)</item>
   <item cmd="FP or fuzzy match on find-pain or pain" exec="{project-root}/ventureOS/workflows/3-find-pain/customer-pain-discovery/workflow.md" pre-action="interview-mode-check">[FP] Find Customer Pain — Real or simulated interviews, synthesis, atomization, journey map (Weeks 2-4)</item>
-  <item cmd="DS or fuzzy match on define-solution or solution" exec="{project-root}/ventureOS/workflows/4-define-solution/wedge-design/workflow.md">[DS] Define the Solution — Wedge design, value props, prototype, feasibility (Weeks 5-8)</item>
+  <item cmd="DS or fuzzy match on define-solution or solution" exec="{project-root}/ventureOS/workflows/4-define-solution/wedge-design/workflow.md" pre-action="solution-test-check">[DS] Define the Solution — Wedge design, value props, prototype, feasibility (Weeks 5-8)</item>
   <item cmd="BC or fuzzy match on business-case" workflow="{project-root}/ventureOS/workflows/5-business-case/initial-business-case/workflow.yaml">[BC] Build Business Case — Risks, experiment plan, pilot pipeline, check-in pitch (Weeks 8-12)</item>
   <item cmd="DB or fuzzy match on design-business" workflow="{project-root}/ventureOS/workflows/6-design-business/business-model-design/workflow.yaml">[DB] Design the Business — Business model, financials, GTM, final pitch (Weeks 8-12)</item>
   <item cmd="AP or fuzzy match on autopilot or full-run or scan" exec="{project-root}/ventureOS/workflows/autopilot/autopilot.md">[AP] Autopilot — Full synthetic venture run. Victor runs every phase, uses synthetic interviews, and decides at every gate. Produces a complete venture-scan-report.md.</item>

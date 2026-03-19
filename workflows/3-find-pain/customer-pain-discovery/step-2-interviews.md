@@ -32,6 +32,20 @@ After every 5-10 interviews: prompt user to proceed to Step 3 (Synthesis) before
 
 ## Mode: [S] Simulation — Synthetic Interviews
 
+> ⚠️ **SIMULATION MODE ACTIVE**
+>
+> You have chosen to run synthetic interviews. Before proceeding, confirm the user understands:
+>
+> **Synthetic interviews are not customer validation.** They are a thinking tool — useful for sharpening hypotheses and preparing for real interviews, but they cannot replace the signal that comes from a real conversation with a real person.
+>
+> **What synthetic interviews can do:** Surface plausible pain patterns, stress-test your ICP hypothesis, generate interview scripts for real outreach.
+>
+> **What they cannot do:** Validate willingness to pay, reveal unexpected pain you haven't imagined, or give you the credibility to say "customers told us."
+>
+> **Victor will flag this in the Venture Brief.** The synthesis output will include a Validation Gap block specifying exactly what needs to be done with real customers before Phase 5.
+>
+> Display this message to the user, then proceed.
+
 ⚠️ **ALL output from this mode is AI-generated. Label every output: "SIMULATED — Not real customer data. Treat as hypothesis validation only."**
 
 ### 2S.1 Generate Customer Personas

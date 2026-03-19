@@ -52,6 +52,20 @@ _(Key findings that support or challenge the venture. Label each: [V] = validate
 
 ---
 
+## Validation Status
+<!-- Victor updates this after each interview phase completes -->
+<!-- Synthetic-only phases stay flagged until real interviews are completed -->
+
+| Phase | Method | Count | Status |
+|-------|--------|-------|--------|
+| Phase 2 — Market | desk research / expert conversations | — | — |
+| Phase 3 — Pain | — | — | — |
+| Phase 4 — Solution | — | — | — |
+
+_(Phases marked ⚠️ SYNTHETIC have no real customer interviews. Validate before committing to a build.)_
+
+---
+
 ## Business Model
 
 - **Revenue model:** _(how we charge — subscription, usage, transaction)_
